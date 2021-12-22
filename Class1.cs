@@ -8,6 +8,10 @@ using RimWorld;
 using UnityEngine;
 using Verse;
 
+/*
+ * 
+ */
+
 namespace SantaSnow
 {
 
@@ -30,7 +34,7 @@ namespace SantaSnow
     {
         public void GameCondition()
         {
-            //RuntimeTypeHandle typeof(GameCondition);
+            RuntimeHelpers.RunClassConstructor(typeof(GameCondition).TypeHandle);
         }
 
         public GameCondition_SantaSnow()
