@@ -3,7 +3,7 @@
 
 	<IncidentDef>
 		<defName>Incident_SantaSnow</defName>
-		<label>Santa's Snow</label>
+		<label>santa's snow</label>
 		<category>Misc</category>
 		<targetTags>
 			<li>Map_PlayerHome</li>
