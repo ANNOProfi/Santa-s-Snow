@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <GameConditionDef>
+    <defName>Condition_SantaSnow</defName>
+    <conditionClass>SantaSnow.GameCondition_SantaSnow</conditionClass>
+    <label>Santa's Snow</label>
+    <description>An orbiting Station housing Santa's sweatsh- completely legal factory for this planet had a malfunction. Copious amounts of dr- Snow have been dispersed throughout the atmosphere.\nYou should get everyone inside though.</description>
+    <endMessage>Santa's sla- voluntary elf workers have repaired the damages, the Snow is fading.</endMessage>
+	  <letterText>An orbiting Station housing Santa's sweatsh- completely legal factory for this Planet had a malfunction. Copious amounts of dr- Snow have been dispersed throughout the atmosphere.\n\nAnyone exposed will become hig- feel very merry for the duration of the incident.\n\nIt will last for anywhere between a few hours to a couple days.</letterText>
+	  <letterDef>NegativeEvent</letterDef>
+    <canBePermanent>true</canBePermanent>
+  </GameConditionDef>
+    
+</Defs>
