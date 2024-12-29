@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<IncidentDef>
+		<defName>Incident_SantaSnow</defName>
+		<label>santa's snow</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>IncidentWorker_MakeGameCondition</workerClass>
+		<gameCondition>Condition_SantaSnow</gameCondition>
+		<letterLabel>Santa's Snow</letterLabel>
+		<letterDef>ThreatSmall</letterDef>
+		<baseChance>0.10</baseChance>
+		<earliestDay>15</earliestDay>
+		<minRefireDays>15</minRefireDays>
+		<minDifficulty>0</minDifficulty>
+		<durationDays>2.0~5.0</durationDays>
+	</IncidentDef>
+
+	
+</Defs>

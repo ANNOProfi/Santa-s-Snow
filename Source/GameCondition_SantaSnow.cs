@@ -62,7 +62,7 @@ namespace SantaSnow
 
         private void DoPawnGiveYayo(Map map)
         {
-            List<Pawn> allPawnsSpawned = map.mapPawns.AllPawnsSpawned;
+            List<Pawn> allPawnsSpawned = map.mapPawns.AllPawnsSpawned.ToList<Pawn>();
             for (int i = 0; i < allPawnsSpawned.Count; i++)
             {
                 DoPawnGiveYayo(allPawnsSpawned[i]);
